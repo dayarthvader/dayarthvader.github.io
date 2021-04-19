@@ -42,6 +42,6 @@ With each commit to the repository, things are pretty much written in stone and 
 Each of the files when tracked/controlled with git have three possible states assigned to it in the git context.
 modified, staged, committed.
 
-modified  - file has been changed/edited (dirtied), but it is not considered to be committed to the repository yet.   
-staged    - A modified file in it's form is a candidate for committing into the repository.   
-committed - In this stage the file is guarenteed to have been saved in the repo as a snapshot.   
+modified  - file has been changed/edited (dirtied), but it is not considered to be committed to the repository yet.  
+staged    - A modified file in it's form is a candidate for committing into the repository.  
+committed - In this stage the file is guarenteed to have been saved in the repo as a snapshot.  
