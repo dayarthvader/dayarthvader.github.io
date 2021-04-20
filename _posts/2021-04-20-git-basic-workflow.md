@@ -23,3 +23,10 @@ or
 ```
 git clone <url> <local_repo_directory_name>
 ```
+There is support for more than one tranport protocol https, ssh, git etc ...
+
+# Starting saving the snapshots
+All files not actively tracked by git are considered as 'untracked' files, as in git acknowledges the presence of a file in it's tiny filesystem but it doesn't bother inspecting it for changes unless the git is instructed to do so with the commands below.  
+
+In other words, files that existed in the previous snapshot are said be tracked, whereaas, other files are said to be untracked.
+![Git file states](/images/git_file_states.png "Git file states")
